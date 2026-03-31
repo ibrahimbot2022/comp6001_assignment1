@@ -62,3 +62,23 @@ Files Affected:
 
 Reason for Using AI:
 AI was used to support the development of the restoration pipeline and quantitative analysis, while all outputs were reviewed and tested manually.
+
+## Entry 4 – Object Detection Comparison
+Prompt:
+"Help me run YOLOv8 object detection on blurred, deblurred, and sharp images and compare the number of detections and confidence scores."
+
+AI Assistance:
+- Provided YOLOv8 inference code in Google Colab
+- Provided code to count detections and compute average confidence
+- Provided code to compare detections per image and identify failure cases
+
+Modifications Made:
+- Ran detection on three image types: blurred, deblurred, and sharp
+- Generated plots and comparison tables for analysis
+
+Files Affected:
+- notebooks/object_detection_comparison.ipynb
+- outputs/detection_comparison_plots.png
+
+Reason for Using AI:
+AI was used to assist with object detection experiment setup and result analysis.
