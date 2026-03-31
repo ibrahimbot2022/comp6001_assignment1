@@ -1,19 +1,14 @@
+
+
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
-venv/
+*.pyo
+*.pyd
 .env
-.DS_Store
+.venv
+*.ipynb_checkpoints
 
-# Data folders (too large)
-data/raw/
-data/processed/
-
-# Model files
-*.pt
-*.pth
-*.onnx
-
-# Output logs and checkpoints
-outputs/checkpoints/
-outputs/logs/
+# Large files
+data/
+yolo_training/
+sharp_labels/
