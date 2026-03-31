@@ -22,3 +22,23 @@ Files Affected:
 
 Reason for Using AI:
 AI was used to assist in setting up the project structure and development workflow efficiently while ensuring proper documentation and reproducibility.
+
+## Entry 2 – Dataset Preparation and Inspection
+Prompt:
+"Help me correctly load matched blurred and sharp image pairs from the GoPro dataset into my assignment folders."
+
+AI Assistance:
+- Helped debug incorrect file pairing
+- Suggested code to copy matched image pairs automatically
+- Provided dataset inspection and visualization code
+
+Modifications Made:
+- Updated dataset paths based on local folder structure
+- Limited the subset to 100 matched image pairs
+
+Files Affected:
+- notebooks/project.ipynb
+
+Reason for Using AI:
+AI was used to help prepare a clean subset of matched image pairs for quantitative and qualitative evaluation.
+
