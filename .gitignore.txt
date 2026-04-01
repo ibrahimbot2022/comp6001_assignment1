@@ -1,14 +1,6 @@
-
-
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-.env
-.venv
 *.ipynb_checkpoints
-
-# Large files
 data/
 yolo_training/
 sharp_labels/
